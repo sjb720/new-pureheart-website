@@ -6,6 +6,7 @@ import { CSSProperties } from 'react'
 import { Button, Slide, ThemeProvider, createTheme, useMediaQuery } from '@mui/material'
 import Heart from '@/components/Heart'
 import Link from 'next/link'
+import ThreeScene from '@/components/ThreeScene'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -70,7 +71,7 @@ export default function RootLayout({
             }
           </div>
           <div style={contentStyle}>
-            {children}
+            {children}            
           </div>
         </body>
       </ThemeProvider>

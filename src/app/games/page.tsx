@@ -7,19 +7,19 @@ import { CSSProperties } from "react"
 const games : Game[] = [
     {
         title: `Let's See What You Got`,
-        href: `lswyg`,
+        href: `https://store.steampowered.com/app/1126070/Lets_See_What_You_Got`,
         price: '$4.99',
     },
     {
         title: `Music Wave`,
-        href: `musicwave`,
+        href: `https://store.steampowered.com/app/740270/MusicWave/`,
         price: 'FREE',
     },
     {
         title: `Halfway Down`,
-        href: `halfway-down`,
+        href: `https://yoman47.itch.io/halfway-down`,
         price: 'FREE',
-    }
+    },
 ]
 
 export default function GamesPage() {
