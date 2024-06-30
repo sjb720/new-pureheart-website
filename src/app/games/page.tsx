@@ -17,7 +17,7 @@ const games : Game[] = [
     },
     {
         title: `Halfway Down`,
-        href: `https://yoman47.itch.io/halfway-down`,
+        href: `https://store.steampowered.com/app/2326420/Halfway_Down/`,
         price: 'FREE',
     },
 ]
@@ -30,6 +30,7 @@ export default function GamesPage() {
         flexFlow: 'column',
         gap: 24,
     }
+
     return <div style={gamesContainer}>
         {games.map((game, i) =>
             <Slide key={game.href} direction='left' in={true} timeout={(200 * i) + 500}>
