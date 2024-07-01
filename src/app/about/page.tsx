@@ -1,7 +1,7 @@
 import { Slide } from "@mui/material";
-import Image from "next/image";
 
 export default function AboutUs() {
+
     return <div style={{ margin: 24 }}>
         <Slide direction='left' in={true} timeout={500}>
             <div style={{ background: 'black', display: 'flex' }}>
