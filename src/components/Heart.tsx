@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Heart() {
 
-    return <div style={{width:150,height:150, display:'flex', justifyContent:'center', alignItems:'center'}}>
+    return <div className="heart" style={{width:150,height:150, display:'flex', justifyContent:'center', alignItems:'center'}}>
         <Link href={"/"}>
         <Image style={{
                 animation: "heartbeat 3s infinite",

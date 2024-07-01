@@ -151,11 +151,7 @@ video#bgvid {
   z-index: 1;
 }
 
-.gameLink:hover {
-  outline: 1px solid #aabfff;
-  box-shadow: #aabfff 0px 0px 20px;
-  animation: glow 2s infinite;
-}
+
 
 @keyframes glow
 {
@@ -187,4 +183,10 @@ video#bgvid {
   --gradient-color-2: #6ec3f4; 
   --gradient-color-3: #eae2ff;  
   --gradient-color-4: #b9beff;
+}
+
+@media only screen and (max-width: 768px) {
+  .heart {
+    display: none !important;
+  }
 }

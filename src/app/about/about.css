@@ -1,0 +1,17 @@
+
+@media only screen and (max-width: 768px) {
+
+    .about-container {
+        display: unset !important;        
+    }
+
+    .about-image {
+        width: 100% !important;
+    }
+
+    .about-text {
+        width: 100% !important;
+        background-color: black;
+    }
+
+}
